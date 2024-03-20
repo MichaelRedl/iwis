@@ -1,0 +1,117 @@
+
+/*.siteOwnerButton {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 300px;
+    background-color: blue;
+    display: none;
+}*/
+
+.siteOwnerButton {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    background-color: RGB(0, 78, 140);
+    border: 1px solid RGB(0, 78, 140);
+    border-radius: 2px;
+    padding: 6.25px 15px;
+    transition: all 0.3s cubic-bezier(0.1, 0.9, 0.2, 1);
+    outline: none;
+    display: none;
+}
+
+.siteOwnerButton:hover {
+    background-color: RGB(0, 118, 214);
+    cursor: pointer;
+}
+
+.siteOwnerButton:active {
+    background-color: RGB(0, 118, 214);
+}
+
+.ownerDivContainer {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    min-width: 230px;
+    max-width: 300px;
+    background-color: white;
+    /*height: 300px;*/
+    border: 1px solid rgb(124, 124, 124);
+    font-family: "Segoe UI";
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ownerItem {
+    display: flex;
+    columns: 1fr, 2fr;
+    padding-left: 12px;
+    margin-top: 5px;
+}
+
+.displayName {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.heading {
+    width: 90%;
+}
+
+.closeButton {
+    position: relative;
+    width: 20px; /* Width of the close button */
+    height: 20px; /* Height of the close button */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-right: 5px;
+  }
+  
+  .closeButton::before, .closeButton::after {
+    content: '';
+    position: absolute;
+    width: 20px; /* Length of the cross lines */
+    height: 2px; /* Thickness of the cross lines */
+    background-color: white; /* Color of the cross */
+  }
+  
+  .closeButton::before {
+    transform: rotate(45deg);
+  }
+  
+  .closeButton::after {
+    transform: rotate(-45deg);
+  }
+
+.headingContainer {
+    font-size: 18px;
+    padding-left: 12px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    background-color: RGB(0, 78, 140);
+    color: white;
+    display: flex;
+}
+
+.ownerDivContainer2 {
+    background-color: white;
+    max-height: 150px;
+    min-height: 60px;
+    overflow: scroll;
+}
+
+.profileImg {
+    height: 45px;
+    border-radius: 22.5px;
+    width: 45px;
+    object-fit: cover;
+    object-position: center;
+}
