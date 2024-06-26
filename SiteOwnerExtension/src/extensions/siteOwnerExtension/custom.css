@@ -11,8 +11,8 @@
 .siteOwnerButton {
     position: absolute;
     z-index: 1;
-    right: 10px;
-    bottom: 10px;
+    right: 25px;
+    bottom: 25px;
     color: white;
     background-color: RGB(0, 78, 140);
     border: 1px solid RGB(0, 78, 140);
@@ -34,8 +34,8 @@
 
 .ownerDivContainer {
     position: absolute;
-    right: 10px;
-    bottom: 10px;
+    right: 25px;
+    bottom: 25px;
     min-width: 230px;
     max-width: 300px;
     background-color: white;
@@ -57,6 +57,15 @@
     display: flex;
     align-items: center;
     padding-left: 15px;
+    padding-right: 10px;
+    color: #545454;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.displayName:hover {
+    color: #545454;
+    text-decoration: underline;
 }
 
 .heading {
@@ -92,7 +101,7 @@
   }
 
 .headingContainer {
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 12px;
     padding-top: 3px;
     padding-bottom: 5px;
@@ -105,7 +114,9 @@
     background-color: white;
     max-height: 150px;
     min-height: 60px;
-    overflow: scroll;
+    overflow-y: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .profileImg {

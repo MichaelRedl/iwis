@@ -1,9 +1,9 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "site-owner-extension-client-side-solution",
+    "name": "Show Site Owner",
     "id": "9f3e8a45-8b47-40cb-9587-686cda653b43",
-    "version": "1.0.0.0",
+    "version": "1.0.0.36",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -20,7 +20,21 @@
           ]
         }
       }
-    ]
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"        
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "GroupMember.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.Read.All"
+      }
+    ]      
   },
   "paths": {
     "zippedPackage": "solution/site-owner-extension.sppkg"

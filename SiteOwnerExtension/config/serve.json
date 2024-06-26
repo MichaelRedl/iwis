@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://michaelredl.sharepoint.com/sites/Spielwiese",
+      "pageUrl": "https://myiwis.sharepoint.com/teams/AS-Worldwide/Indianapolis",
       "customActions": {
         "4008279d-0a44-46a2-a8c5-0f871423b6e6": {
           "location": "ClientSideExtension.ApplicationCustomizer",
@@ -15,7 +15,7 @@
       }
     },
     "siteOwnerExtension": {
-      "pageUrl": "https://michaelredl.sharepoint.com/sites/Spielwiese",
+      "pageUrl": "https://myiwis.sharepoint.com/teams/AS-Worldwide/Indianapolis",
       "customActions": {
         "4008279d-0a44-46a2-a8c5-0f871423b6e6": {
           "location": "ClientSideExtension.ApplicationCustomizer",
